@@ -1,0 +1,15 @@
+{
+    "name": "GeoCities Website Maker",
+    "short_name": "GeoCities.live",
+    "icons": [
+        {
+            "src": "/img/test/computer.gif",
+            "sizes": "16x16",
+            "type": "image/gif"
+        }
+    ],
+    "start_url": "/",
+    "display": "browser",
+    "theme_color": "#000080",
+    "background_color": "#000080"
+} 

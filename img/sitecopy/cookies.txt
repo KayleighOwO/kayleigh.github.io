@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+geocities.live	TRUE	/	FALSE	1999999999	GAESA	CpwBMDBkYTZjZDJjNGNhMzExMTM3MGViMTM5ZjFjOWE4ZWM4NjM3ODZkY2QxZDdjNzRhMThiYWNkYWY1YTU2NjYyMTMzYzhhYjI2Yjg5OThiMjg4ZDlkMmVhYTE3NTIzMzU4ZWVhMWMwN2YxN2IwZjlkZDIxZjBlZThlMDRkZWQwNGIxZmJhZjkxYjYxMmI4MDE4NGQyMzk3MWNhOWEwEMrHueLQMw
+

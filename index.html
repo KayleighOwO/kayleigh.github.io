@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Kayleigh Louwrens - Designer, Developer, UI &amp; UX Specialist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kayleigh Louwrens' 90s-style portfolio website">
+    <meta name="author" content="Kayleigh Louwrens">
+
+    <!-- Required CSS/JS dependencies -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./css/prettify.css" rel="stylesheet">
+    <link href="./css/bootswatch.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url('./images/stars.gif');
+            background-repeat: repeat;
+            color: #00FF00; /* Neon green text */
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        .jumbotron {
+            background-color: #FF00FF; /* Magenta */
+            color: #FFFF00; /* Yellow */
+            text-align: center;
+            padding: 40px 20px;
+            margin-bottom: 30px;
+            border: 5px dashed #00FFFF; /* Cyan */
+        }
+        .well {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+            border: 3px groove #FFFFFF; /* White */
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #00FFFF; /* Cyan */
+        }
+        a {
+            color: #FF00FF; /* Magenta */
+            text-decoration: none;
+        }
+        a:hover {
+            color: #FFFF00; /* Yellow */
+            text-decoration: underline;
+        }
+        .navbar-inner {
+            background-color: #0000FF; /* Blue */
+            border-radius: 0;
+        }
+        .navbar .nav .active a {
+            color: #FFFF00; /* Yellow */
+        }
+        .table th, .table td {
+            border: 1px solid #FFFFFF; /* White */
+        }
+        .table-striped tbody tr:nth-child(odd) td,
+        .table-striped tbody tr:nth-child(odd) th {
+            background-color: rgba(0, 0, 0, 0.8); /* Darker black for striping */
+        }
+        .progress-bar {
+            background-color: #00FF00; /* Green */
+        }
+        .blink {
+            animation: blinker 1s linear infinite;
+        }
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+        marquee {
+            background-color: #FF0000; /* Red */
+            color: #FFFFFF; /* White */
+            padding: 10px 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <a class="brand" href="#">Kayleigh Louwrens</a>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>
+                <font color="#FF00FF">K</font>
+                <font color="#FFFF00">A</font>
+                <font color="#00FFFF">Y</font>
+                <font color="#00FF00">L</font>
+                <font color="#FF0000">E</font>
+                <font color="#800080">I</font>
+                <font color="#FFA500">G</font>
+                <font color="#FF00FF">H</font>
+                <font color="#FFFF00"> </font>
+                <font color="#00FFFF">L</font>
+                <font color="#00FF00">O</font>
+                <font color="#FF0000">U</font>
+                <font color="#800080">W</font>
+                <font color="#FFA500">R</font>
+                <font color="#FF00FF">E</font>
+                <font color="#FFFF00">N</font>
+                <font color="#00FFFF">S</font>
+            </h1>
+            <h2>DESIGNER, DEVELOPER, UI &amp; UX SPECIALIST</h2>
+            <p><font color="#FFFFFF">Welcome to my portfolio!</font></p>
+            <img src="./images/flames.gif" alt="Flames GIF">
+            <p><a href="#contact" class="btn btn-large btn-primary">Get started</a></p>
+        </div>
+
+        <div class="row-fluid">
+            <div class="span3">
+                <div class="well">
+                    <h4>Navigation</h4>
+                    <ul class="nav nav-list">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <img src="./images/wabwalk.gif" alt="Wabwalk GIF">
+                    <hr>
+                    <h4>Visitor Counter</h4>
+                    <img src="./images/counter.gif" alt="Counter GIF">
+                    <img src="./images/counter2.gif" alt="Counter 2 GIF">
+                    <p><font color="#FFFFFF">Page Views:</font> <span class="blink">1234567</span></p>
+                    <hr>
+                    <h4>Browser Check!</h4>
+                    <img src="./images/ie_logo.gif" alt="IE Logo">
+                    <img src="./images/ns_logo.gif" alt="Netscape Logo">
+                    <p><font color="#FFFFFF">Best viewed in Netscape!</font></p>
+                </div>
+            </div>
+            <div class="span9">
+                <div class="well">
+                    <h3>About Me</h3>
+                    <img src="./images/divider.gif" alt="Divider GIF">
+                    <p><font color="#FFFFFF">As a first-year student at 
+CTU Training Solutions, my educational journey has been marked by a 
+passion for technology and a drive for innovation. Throughout my 
+studies, I've actively participated in diverse group projects 
+encompassing robotics and web design/development, showcasing my 
+commitment to hands-on learning and collaborative teamwork.</font></p>
+                    <p><font color="#FFFFFF">My proficiency spans across
+ various programming languages and technologies, including Python, C#, 
+JavaScript, HTML, and CSS. These skills have not only allowed me to 
+contribute effectively to multifaceted projects but have also equipped 
+me with the tools to tackle complex challenges in the realm of software 
+development and design.</font></p>
+                    <img src="./images/divider1.gif" alt="Divider GIF">
+                    <img src="./images/computer-01.gif" alt="Computer GIF">
+                </div>
+
+                <img src="./images/rainbow.gif" alt="Rainbow GIF" style="width: 100%;">
+
+                <div class="well">
+                    <h3 id="skills">What I Do</h3>
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>Area</th>
+                                <th>Proficiency</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Software Development</td>
+                                <td>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar" style="width: 85%;">85%</div>
+                                    </div>
+                                    <font color="#FFFFFF">Proficient in 
+C# and Python, I leverage these languages extensively for robust 
+software development, showcasing a strong command over their 
+functionalities and capabilities in creating efficient, scalable 
+solutions.</font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Web Development</td>
+                                <td>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar" style="width: 70%;">70%</div>
+                                    </div>
+                                    <font color="#FFFFFF">I played a key
+ role in implementing responsive HTML and CSS elements, ensuring the 
+website's functionality and aesthetic appeal across various devices.</font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>UI &amp; UX Design</td>
+                                <td>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar" style="width: 80%;">80%</div>
+                                    </div>
+                                    <font color="#FFFFFF">I've contributed to a user-friendly and visually engaging UI/UX design for our college's mockup website.</font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Python &amp; C#</td>
+                                <td>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar" style="width: 80%;">80%</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>HTML &amp; CSS</td>
+                                <td>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar" style="width: 75%;">75%</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <img src="./images/progress.gif" alt="Progress GIF">
+                </div>
+
+                <img src="./images/rainbow.gif" alt="Rainbow GIF" style="width: 100%;">
+
+                <div class="well">
+                    <h3 id="projects">Projects</h3>
+                    <img src="./images/divider2.gif" alt="Divider GIF">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Project Name</th>
+                                <th>Description</th>
+                                <th><font color="#FFFFFF">Status</font></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Simple Platformer Game</td>
+                                <td>Made in Python using PyGame</td>
+                                <td><span class="label label-success">Complete</span></td>
+                            </tr>
+                            <tr>
+                                <td>Calculator App</td>
+                                <td>Made calculators in both C# and Python</td>
+                                <td><span class="label label-success">Complete</span></td>
+                            </tr>
+                            <tr>
+                                <td>Inventory Management/POS System</td>
+                                <td>Made using Python</td>
+                                <td><img src="./images/underconstruction.gif" alt="Under Construction GIF"></td>
+                            </tr>
+                            <tr>
+                                <td>College website</td>
+                                <td>Mockup website made for a college using HTML, CSS, and JavaScript</td>
+                                <td><span class="label label-info">Ongoing</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <img src="./images/computer.gif" alt="Computer GIF">
+                </div>
+
+                <img src="./images/rainbow.gif" alt="Rainbow GIF" style="width: 100%;">
+
+                <div class="well">
+                    <h3 id="about">About Me</h3>
+                    <img src="./images/divider3.gif" alt="Divider GIF">
+                    <p><font color="#FFFFFF">I'm a passionate and 
+dedicated first-year college student at CTU Training Solutions, deeply 
+engrossed in the world of technology. My journey encompasses a fervor 
+for software development, where I thrive on exploring the intricacies of
+ languages like Python, C#, JavaScript, HTML, and CSS. Collaborative 
+projects in robotics and web design/development have honed my skills, 
+while my enthusiasm for crafting intuitive UI/UX designs has allowed me 
+to contribute to our college's mockup website. I'm driven by a 
+relentless curiosity, always seeking to push boundaries and innovate 
+within the ever-evolving landscape of technology.</font></p>
+                    <img src="./images/heart.gif" alt="Heart GIF">
+                </div>
+
+                <img src="./images/rainbow.gif" alt="Rainbow GIF" style="width: 100%;">
+
+                <div class="well">
+                    <h3 id="contact">Contact Me</h3>
+                    <img src="./images/divider4.gif" alt="Divider GIF">
+                    <p>
+                        <img src="./images/emailme.gif" alt="Email Me GIF">
+                        <font color="#FFFFFF">065 883 6456</font>
+                    </p>
+                    <p>
+                        <img src="./images/mailkitten.gif" alt="Mailkitten GIF">
+                        <font color="#FFFFFF">kayleigh0230@gmail.com</font>
+                    </p>
+                    <p>
+                        <img src="./images/spinningearth.gif" alt="Spinning Earth GIF">
+                        <font color="#FFFFFF">26 Worraker St, Newton Park, Gqeberha, 6045</font>
+                    </p>
+                    <img src="./images/community.gif" alt="Community GIF">
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <hr>
+            <div class="text-center">
+                <marquee behavior="scroll" direction="left">
+                    <font color="#FFFF00">!!! Welcome to my totally awesome 90s homepage !!!</font>
+                </marquee>
+                <p><font color="#FFFFFF">You are visitor number:</font> <img src="./images/counter.gif" alt="Counter GIF"></p>
+                <a href="#" rel="nofollow"><img src="./images/ie_logo.gif" alt="IE Logo"></a>
+                <a href="#" rel="nofollow"><img src="./images/ns_logo.gif" alt="Netscape Logo"></a>
+                <br>
+                <img src="./images/drudgesiren.gif" alt="Drudge Siren GIF">
+                <font color="#FFFFFF">Proudly hosted on GeoCities!</font>
+                <img src="./images/drudgesiren.gif" alt="Drudge Siren GIF">
+                <br>
+                <a href="https://www.geocities.ws/" rel="nofollow">Built with GeoCities.live</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Required JavaScript -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/prettify.js"></script>
+    <script src="./js/bootstrap-transition.js"></script>
+    <script src="./js/bootstrap-alert.js"></script>
+    <script src="./js/bootstrap-modal.js"></script>
+    <script src="./js/bootstrap-dropdown.js"></script>
+    <script src="./js/bootstrap-scrollspy.js"></script>
+    <script src="./js/bootstrap-tab.js"></script>
+    <script src="./js/bootstrap-tooltip.js"></script>
+    <script src="./js/bootstrap-popover.js"></script>
+    <script src="./js/bootstrap-button.js"></script>
+    <script src="./js/bootstrap-collapse.js"></script>
+    <script src="./js/bootstrap-carousel.js"></script>
+    <script src="./js/bootstrap-typeahead.js"></script>
+    <script src="./js/bootstrap-affix.js"></script>
+
+        <div style="position: fixed; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.8); color: #fff; padding: 10px; text-align: center; z-index: 9999; font-family: 'Comic Sans MS', cursive;">
+            <img src="./images/construction.gif" alt="Under Construction" style="vertical-align: middle; margin-right: 10px;">
+            <a href="https://geocities.live/" style="color: #00ff00; text-decoration: none; font-weight: bold;">
+                <img src="./images/new.gif" alt="New!" style="vertical-align: middle; margin-right: 5px;">
+                Generate your own 90s page here!
+            </a>
+            <img src="./images/construction.gif" alt="Under Construction" style="vertical-align: middle; margin-left: 10px;">
+        </div>
+        
+</body></html>

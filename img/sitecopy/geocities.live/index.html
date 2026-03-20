@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from geocities.live/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Mar 2026 17:32:38 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>GeoCities Website Builder - Transform your site into 90s style</title>
+    <link rel="icon" type="image/gif" href="img/test/computer.gif">
+    <link rel="shortcut icon" type="image/x-icon" href="img/test/computer.gif">
+    <link rel="manifest" href="manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GeoCities website generator that transforms modern websites into authentic 90s style. Create your own retro GeoCities-style webpage instantly!">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="GeoCities Website Maker - Transform Modern Sites into 90s Style">
+    <meta property="og:description" content="Website generator that transforms any modern webpage into authentic 90s GeoCities style! Create your own retro webpage with animated GIFs, marquees, and more.">
+    <meta property="og:image" content="img/geocities_live_og.png">
+    <meta property="og:url" content="index.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GeoCities Website Maker - Transform Modern Sites into 90s Style">
+    <meta name="twitter:description" content="Website generator that transforms any modern webpage into authentic 90s GeoCities style! Create your own retro webpage with animated GIFs, marquees, and more.">
+    <meta name="twitter:image" content="img/geocities_live_og.png">
+
+    <style>
+        /* Windows 95 Colors */
+        :root {
+            --win95-gray: #c0c0c0;
+            --win95-dark-gray: #808080;
+            --win95-light-gray: #dfdfdf;
+            --win95-white: #ffffff;
+            --win95-black: #000000;
+            --win95-blue: #000080;
+        }
+
+        @keyframes rainbow {
+            0% { color: red; }
+            20% { color: yellow; }
+            40% { color: lime; }
+            60% { color: cyan; }
+            80% { color: magenta; }
+            100% { color: red; }
+        }
+
+        body {
+            background: #000080 url('img/microfab.gif');
+            color: #fff;
+            padding-top: 20px;
+            font-family: "Comic Sans MS", cursive;
+            text-align: center;
+        }
+
+        .main-container {
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo {
+            margin: 20px 0;
+            position: relative;
+            text-align: center;
+        }
+
+        .web-awards {
+            position: absolute;
+            right: 0;
+            top: 0;
+            display: flex;
+            gap: 10px;
+        }
+
+        .web-awards img {
+            height: 50px;
+        }
+
+        .decorative-gifs {
+            position: absolute;
+            left: 0;
+            top: 20px;
+        }
+
+        .decorative-gifs img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .logo h1 {
+            font-size: 72px;
+            margin-bottom: 10px;
+            animation: rainbow 10s infinite;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            position: relative;
+        }
+
+        /* Add mobile optimization */
+        @media (max-width: 768px) {
+            .logo h1 {
+                font-size: 36px;
+                margin: 10px 0;
+            }
+
+            .logo .subtitle {
+                font-size: 16px;
+                padding: 8px 15px;
+            }
+
+            .main-container {
+                padding: 10px;
+            }
+
+            .url-input {
+                font-size: 16px;
+                padding: 8px;
+                width: 100%;
+            }
+
+            .transform-btn {
+                font-size: 16px;
+                padding: 8px 15px;
+                min-width: 100px;
+            }
+
+            .button-decorations {
+                display: none;
+            }
+
+            .web-awards {
+                position: static;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+
+            .decorative-gifs {
+                position: static;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+
+            .win95-form {
+                margin: 10px;
+            }
+
+            .instructions {
+                margin: 10px;
+            }
+
+            .url-input-group {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .url-input {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .transform-btn {
+                width: 100%;
+            }
+
+            .pointing-arrows {
+                display: none;
+            }
+
+            marquee {
+                font-size: 14px;
+            }
+
+            .win95-form {
+                border-width: 2px;
+            }
+
+            .product-hunt-badge {
+                transform: scale(0.8);
+                margin: 5px 0;
+            }
+        }
+
+        .logo h1::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -20px;
+            width: 100%;
+            height: 40px;
+            background: url('img/flames.gif') repeat-x center top;
+            background-size: auto 100%;
+        }
+
+        .logo .subtitle {
+            font-size: 18px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            margin-bottom: 20px;
+            font-family: "Comic Sans MS", cursive;
+            background: rgba(0,0,0,0.5);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        .instructions {
+            background: var(--win95-gray);
+            border: 2px outset var(--win95-light-gray);
+            padding: 15px;
+            margin: 20px auto;
+            max-width: 600px;
+            color: var(--win95-black);
+            font-family: "MS Sans Serif", Arial, sans-serif;
+            text-align: left;
+        }
+
+        .instructions-title {
+            background: var(--win95-blue);
+            color: var(--win95-white);
+            padding: 3px 5px;
+            margin: -15px -15px 15px -15px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .instructions ol {
+            margin: 0;
+            padding-left: 25px;
+        }
+
+        .instructions li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .instructions img {
+            height: 20px;
+        }
+
+        /* Windows 95 URL Input Form */
+        .win95-form {
+            background: var(--win95-gray);
+            border: 3px outset var(--win95-light-gray);
+            padding: 12px;
+            margin: 20px auto 0 auto;
+            max-width: 800px;
+            text-align: center;
+            position: relative;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+        }
+
+        .pointing-arrows {
+            position: absolute;
+            left: -60px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .pointing-arrows img {
+            height: 40px;
+            margin: 5px;
+        }
+
+        .win95-title-bar {
+            background: var(--win95-blue);
+            color: var(--win95-white);
+            padding: 3px;
+            margin: -8px -8px 8px -8px;
+            font-family: "MS Sans Serif", Arial, sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .win95-title-bar img {
+            margin-right: 4px;
+            width: 16px;
+            height: 16px;
+        }
+
+        .win95-content {
+            background: var(--win95-gray);
+            padding: 15px;
+            text-align: center;
+        }
+
+        .url-input-group {
+            display: flex;
+            margin: 10px;
+            padding: 8px;
+            background: var(--win95-gray);
+            border: 2px outset var(--win95-light-gray);
+            position: relative;
+        }
+
+        .url-input {
+            flex: 1;
+            padding: 10px;
+            font-family: "MS Sans Serif", Arial, sans-serif;
+            font-size: 18px;
+            background: var(--win95-white);
+            color: var(--win95-black);
+            border: 2px inset var(--win95-light-gray);
+            margin-right: 10px;
+            width: 500px;
+        }
+
+        .transform-btn {
+            font-family: "MS Sans Serif", Arial, sans-serif;
+            font-size: 18px;
+            padding: 8px 20px;
+            background: var(--win95-gray);
+            color: var(--win95-black);
+            border: 2px outset var(--win95-light-gray);
+            cursor: pointer;
+            min-width: 120px;
+            position: relative;
+        }
+
+        .transform-btn:active {
+            border-style: inset;
+            padding: 5px 14px 3px 16px;
+        }
+
+        .button-decorations {
+            position: absolute;
+            right: -30px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .button-decorations img {
+            height: 30px;
+            margin: 2px;
+        }
+
+        /* Loading Screen Styles */
+        #loadingScreen {
+            display: none;
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+            border-top: none;
+            border-radius: 0 0 3px 3px;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+        }
+
+        #loadingScreen .win95-title-bar {
+            background: var(--win95-blue);
+            border-top: 2px outset var(--win95-light-gray);
+        }
+
+        .loading-content {
+            text-align: center;
+            padding: 20px;
+            background: var(--win95-gray);
+        }
+
+        .status-message {
+            margin: 10px 0;
+            font-family: "MS Sans Serif", Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        .progress-container {
+            width: 100%;
+            height: 20px;
+            background: var(--win95-white);
+            border: 2px inset var(--win95-light-gray);
+            margin: 10px 0;
+        }
+
+        .progress-bar {
+            width: 0%;
+            height: 100%;
+            background: var(--win95-blue);
+            transition: width 0.5s ease;
+        }
+
+        .loading-details {
+            margin-top: 10px;
+            font-family: "MS Sans Serif", Arial, sans-serif;
+            font-size: 12px;
+            color: var(--win95-black);
+        }
+
+        .footer {
+            margin-top: 40px;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 10px;
+            font-family: "MS Sans Serif", Arial, sans-serif;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #00ff00;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+            color: #00ffff;
+        }
+
+        .footer .copyright {
+            margin-top: 5px;
+            font-size: 10px;
+            color: #888;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            margin: 40px auto;
+            max-width: 900px;
+            padding: 0 20px;
+        }
+
+        .faq-title {
+            background: var(--win95-blue);
+            color: var(--win95-white);
+            padding: 8px 15px;
+            font-weight: bold;
+            font-family: "MS Sans Serif", Arial, sans-serif;
+            font-size: 18px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .faq-item {
+            background: var(--win95-gray);
+            border: 2px outset var(--win95-light-gray);
+            margin-bottom: 10px;
+            font-family: "MS Sans Serif", Arial, sans-serif;
+        }
+
+        .faq-question {
+            background: var(--win95-blue);
+            color: var(--win95-white);
+            padding: 8px 12px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            user-select: none;
+        }
+
+        .faq-question:hover {
+            background: #0000AA;
+        }
+
+        .faq-question::before {
+            content: '▶';
+            margin-right: 8px;
+            transition: transform 0.3s;
+            font-size: 10px;
+        }
+
+        .faq-item.active .faq-question::before {
+            transform: rotate(90deg);
+        }
+
+        .faq-answer {
+            padding: 12px 15px;
+            color: var(--win95-black);
+            font-size: 13px;
+            line-height: 1.6;
+            display: none;
+            border-top: 1px solid var(--win95-dark-gray);
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .faq-answer p {
+            margin: 0 0 10px 0;
+        }
+
+        .faq-answer p:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            .faq-section {
+                padding: 0 10px;
+            }
+            .faq-question {
+                font-size: 12px;
+                padding: 6px 10px;
+            }
+            .faq-answer {
+                font-size: 12px;
+                padding: 10px;
+            }
+        }
+
+        .blink {
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+
+        #results {
+            display: none;
+        }
+
+        .results-container {
+            background: var(--win95-gray);
+            border: 2px outset var(--win95-light-gray);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        .share-link {
+            background: var(--win95-white);
+            border: 2px inset var(--win95-light-gray);
+            padding: 10px;
+            margin: 10px 0;
+            word-break: break-all;
+            font-family: monospace;
+        }
+
+        .copy-btn {
+            font-family: "MS Sans Serif", Arial, sans-serif;
+            font-size: 14px;
+            padding: 4px 15px;
+            background: var(--win95-gray);
+            color: var(--win95-black);
+            border: 2px outset var(--win95-light-gray);
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .copy-btn:active {
+            border-style: inset;
+            padding: 5px 14px 3px 16px;
+        }
+
+        /* Recent gallery */
+        .recent-wrapper {
+            margin: 30px auto;
+            max-width: 1000px;
+        }
+        .recent-title {
+            background: var(--win95-blue);
+            color: var(--win95-white);
+            padding: 6px 10px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .recent-grid {
+            margin: 10px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            max-width: 1000px;
+        }
+        .recent-card {
+            background: var(--win95-gray);
+            border: 2px outset var(--win95-light-gray);
+            padding: 8px;
+        }
+        .recent-card iframe {
+            width: 100%;
+            height: 180px;
+            border: 2px inset var(--win95-light-gray);
+            background: #fff;
+        }
+        .recent-card a {
+            display: inline-block;
+            margin-top: 6px;
+            color: #00ff00;
+            text-decoration: none;
+            word-break: break-all;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        .recent-more {
+            margin-top: 10px;
+            font-family: "MS Sans Serif", Arial, sans-serif;
+            font-size: 16px;
+            padding: 6px 14px;
+            background: var(--win95-gray);
+            color: var(--win95-black);
+            border: 2px outset var(--win95-light-gray);
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .recent-grid { grid-template-columns: 1fr; }
+            .recent-card iframe { height: 150px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="logo">
+            <div class="web-awards">
+                <img src="img/test/hot.gif" alt="Hot Site">
+                <img src="img/test/yahooweek.gif" alt="Yahoo Pick of the Week">
+            </div>
+            <div class="decorative-gifs">
+                <img src="img/test/new.gif" alt="New">
+                <img src="img/flames.gif" alt="Flames">
+            </div>
+            <h1>GeoCities Website Maker</h1>
+            <div class="subtitle">Transform ANY modern webpage into an authentic 90s masterpiece!</div>
+        </div>
+
+        <marquee scrollamount="5" behavior="alternate">
+            <img src="img/test/new.gif" alt="New"> WELCOME TO THE WORLD WIDE WEB'S MOST AWESOME GEOCITIES GENERATOR! <img src="img/test/hot.gif" alt="Hot">
+        </marquee>
+
+        <!-- URL Input Form and Loading Screen grouped together -->
+        <div class="transform-section">
+            <div class="win95-form">
+                <div class="win95-title-bar">
+                    <img src="img/test/ie_logo.gif" alt="Browser Icon" class="title-icon">
+                    Enter Website URL
+                </div>
+                
+                <!-- Add Product Hunt badge here -->
+                <div class="product-hunt-badge" style="text-align: center; margin: 15px 0;">
+                    <a href="https://www.producthunt.com/posts/geocities-live?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-geocities-live" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=948083&amp;theme=light&amp;t=1743492394736" alt="Geocities&#0046;live - Turn&#0032;any&#0032;website&#0032;into&#0032;90s&#0032;dot&#0045;com&#0032;era | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+                </div>
+                
+                <div class="win95-content">
+                    <div class="url-input-group">
+                        <input type="text" id="urlInput" class="url-input" placeholder="https://example.com/">
+                        <button onclick="transformURL()" class="transform-btn">GeoCitify!</button>
+                        <div class="button-decorations">
+                            <img src="img/test/new2.gif" alt="Click">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading Screen moved here -->
+            <div id="loadingScreen" class="win95-form">
+                <div class="win95-title-bar">
+                    <img src="img/test/computer.gif" alt="Loading">
+                    Transforming Your Page...
+                </div>
+                <div class="win95-content loading-content">
+                    <img src="img/progress.gif" alt="Loading..." style="margin: 10px;">
+                    <div class="status-message">
+                        <span id="statusText">Initializing transformation...</span>
+                    </div>
+                    <div class="progress-container">
+                        <div id="progressBar" class="progress-bar"></div>
+                    </div>
+                    <div class="loading-details">
+                        <img src="img/test/computer-01.gif" alt="Processing" style="vertical-align: middle;">
+                        <span id="loadingDetails">Starting up the time machine...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <div class="instructions-title">
+                <img src="img/test/notepad.gif" alt="Instructions">
+                How to GeoCitify Your Page!
+            </div>
+            <ol>
+                <li>
+                    <img src="img/test/computer.gif" alt="Step 1">
+                    Find any modern webpage URL
+                </li>
+                <li>
+                    <img src="img/test/webtrips.gif" alt="Step 2">
+                    Paste it in the box above
+                </li>
+                <li>
+                    <img src="img/test/hot.gif" alt="Step 3">
+                    Click the GeoCitify button!
+                </li>
+                <li>
+                    <img src="img/test/community.gif" alt="Step 4">
+                    Share your rad page with friends!
+                </li>
+            </ol>
+        </div>
+
+        <!-- Gallery removed - pages are no longer stored -->
+
+        <!-- FAQ Section for SEO -->
+        <div class="faq-section">
+            <div class="faq-title">
+                <img src="img/test/notepad.gif" alt="FAQ" style="width: 20px; height: 20px;">
+                Frequently Asked Questions About GeoCities Maker
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    What is GeoCities and how does this GeoCities maker work?
+                </div>
+                <div class="faq-answer">
+                    <p>GeoCities was a popular web hosting service from the 1990s that allowed users to create personal websites with classic HTML elements like animated GIFs, marquee text, and colorful backgrounds. Our GeoCities maker is a free tool that transforms any modern website into an authentic 90s-style GeoCities page. Simply paste a URL, and our generator will recreate it with classic GeoCities elements including visitor counters, "Under Construction" GIFs, and retro styling.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    Is this GeoCities generator free to use?
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! Our GeoCities website maker is completely free. You can transform unlimited websites into retro GeoCities-style pages without any cost. No registration or account creation is required - just paste a URL and click "GeoCitify" to generate your 90s-style webpage instantly.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    Can I use this GeoCities maker to create my own 90s website?
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutely! Our GeoCities generator can transform any modern webpage into a classic GeoCities-style page. Whether you want to convert your blog, portfolio, or any other website into a nostalgic 90s design, our GeoCities maker will add authentic elements like animated backgrounds, visitor counters, marquee text, and retro color schemes that capture the spirit of the original GeoCities era.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    What features does this GeoCities website builder include?
+                </div>
+                <div class="faq-answer">
+                    <p>Our GeoCities maker includes all the classic elements that made GeoCities websites memorable: animated GIF backgrounds, visitor counters, "Under Construction" banners, marquee scrolling text, colorful font tags, retro color schemes, classic button styles, and authentic 90s web design patterns. The generator automatically applies these elements to transform modern websites into nostalgic GeoCities-style pages.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    Do I need coding knowledge to use this GeoCities generator?
+                </div>
+                <div class="faq-answer">
+                    <p>No coding knowledge is required! Our GeoCities maker is designed to be user-friendly. Simply paste the URL of any website you want to transform, and our generator will automatically create a GeoCities-style version with all the classic 90s elements. The entire process takes just seconds - no HTML, CSS, or web design experience needed.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    What types of websites work best with this GeoCities maker?
+                </div>
+                <div class="faq-answer">
+                    <p>Our GeoCities generator works with any publicly accessible website. It's perfect for transforming blogs, portfolios, business websites, news sites, and more into nostalgic GeoCities-style pages. The generator extracts the main content and recreates it with authentic 90s web design elements, making it ideal for anyone wanting to experience or recreate the classic GeoCities aesthetic.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    Is this related to the original GeoCities service?
+                </div>
+                <div class="faq-answer">
+                    <p>This GeoCities maker is an independent tool created to celebrate and recreate the classic GeoCities aesthetic. While not affiliated with the original GeoCities service (which closed in 2009), our generator faithfully recreates the look and feel of those nostalgic 90s websites, allowing users to experience the retro web design style that made GeoCities so memorable.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    How accurate is this GeoCities generator compared to original GeoCities sites?
+                </div>
+                <div class="faq-answer">
+                    <p>Our GeoCities maker strives to capture the authentic spirit of original GeoCities websites. It includes classic elements like animated GIF backgrounds, visitor counters, marquee text, retro color schemes, and the characteristic 90s web design patterns. While modern web technologies differ from the 1990s, our generator recreates the visual style and nostalgic feel that made GeoCities websites so distinctive and beloved.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    What was GeoCities and when did it exist?
+                </div>
+                <div class="faq-answer">
+                    <p>GeoCities was one of the first major web hosting services, launched in 1994 as Beverly Hills Internet. It became GeoCities in 1995 and quickly grew into one of the most popular free web hosting platforms of the 1990s. At its peak, GeoCities hosted millions of personal websites organized into themed "neighborhoods" like Area51, Hollywood, SunsetStrip, and more. It was acquired by Yahoo in 1999 for $3.57 billion and remained active until 2009 when Yahoo shut it down.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    Why did GeoCities close and what happened to all the websites?
+                </div>
+                <div class="faq-answer">
+                    <p>Yahoo closed GeoCities in 2009, citing a shift in focus toward more modern web services. The closure resulted in the deletion of millions of websites, though many were archived by the Internet Archive's Wayback Machine. The shutdown marked the end of an era for personal web publishing, as GeoCities had been home to countless personal pages, fan sites, and early web experiments. Our GeoCities maker helps preserve the aesthetic and spirit of those classic websites.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    What were GeoCities neighborhoods and how did they work?
+                </div>
+                <div class="faq-answer">
+                    <p>GeoCities organized websites into themed "neighborhoods" that mimicked real-world communities. Popular neighborhoods included Area51 (science fiction and technology), Hollywood (entertainment and celebrities), SunsetStrip (music and bands), WallStreet (business and finance), and many others. Each neighborhood had its own community feel, and users could browse websites within their chosen neighborhood. This unique organization system helped GeoCities become a social platform before social media existed.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    What made GeoCities websites so distinctive and memorable?
+                </div>
+                <div class="faq-answer">
+                    <p>GeoCities websites were known for their creative, often chaotic design aesthetic. Common features included animated GIF backgrounds, visitor counters, scrolling marquee text, colorful font tags, "Under Construction" banners, guestbooks, web rings, and extensive use of tables for layout. These elements, combined with personal expression and creativity, created a unique web culture that celebrated individuality and DIY web design. Our GeoCities generator recreates these classic design elements.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    Can I still access old GeoCities websites today?
+                </div>
+                <div class="faq-answer">
+                    <p>While the original GeoCities service closed in 2009, many archived GeoCities websites are still accessible through the Internet Archive's Wayback Machine. You can search for old GeoCities URLs (like geocities.com/neighborhood/username) to view snapshots of these classic websites. Our GeoCities maker allows you to create new websites with that same nostalgic aesthetic, bringing the spirit of GeoCities into the modern web.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    How does this GeoCities maker compare to the original GeoCities service?
+                </div>
+                <div class="faq-answer">
+                    <p>While the original GeoCities was a web hosting platform where users created and hosted their own websites, our GeoCities maker is a transformation tool that converts modern websites into GeoCities-style pages. We don't provide hosting, but we do recreate the authentic visual design, classic HTML elements, and nostalgic aesthetic that made GeoCities websites so memorable. It's perfect for anyone wanting to experience or recreate that classic 90s web design style.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    What was the cultural impact of GeoCities on the early internet?
+                </div>
+                <div class="faq-answer">
+                    <p>GeoCities played a crucial role in democratizing web publishing, making it possible for anyone to create a website without technical knowledge. It fostered a vibrant community of personal expression, fan sites, and creative experimentation. GeoCities helped establish web design conventions, popularized personal web publishing, and created a sense of community in the early internet. Many web designers and developers got their start on GeoCities, making it an important part of internet history.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="copyright">
+                <img src="img/test/counter.gif" alt="Visitor Counter" style="vertical-align: middle;">
+                © 1996-2025 GeoCities Time Machine - Best viewed in Netscape Navigator 3.0 or higher
+            </div>
+        </div>
+    </div>
+
+    <script>
+    const loadingMessages = [
+        { time: 0, message: "Booting up GeoCities time machine...", details: "Dialing up to the Information Superhighway..." },
+        { time: 2, message: "Connecting to modern webpage...", details: "Please don't pick up the phone, downloading in progress..." },
+        { time: 4, message: "Analyzing webpage structure...", details: "Checking for <TABLE> and <FONT> tag opportunities..." },
+        { time: 6, message: "Applying GeoCities magic...", details: "Adding essential Under Construction GIFs..." },
+        { time: 8, message: "Generating neighborhood vibes...", details: "Moving to SunsetStrip or Area51?" },
+        { time: 10, message: "Adding classic elements...", details: "Sprinkling animated flames and spinning globes..." },
+        { time: 11, message: "Enhancing visuals...", details: "Making sure your visitor counter is properly installed..." },
+        { time: 12, message: "Final GeoCities touches...", details: "Adding mandatory 'Best viewed in Netscape Navigator' button..." },
+        { time: 13, message: "Quality checks...", details: "Ensuring maximum rad factor achieved..." },
+        { time: 14, message: "Almost there...", details: "Preparing your new home on the World Wide Web..." }
+    ];
+
+    async function transformURL() {
+        const urlInput = document.getElementById('urlInput');
+        let url = urlInput.value.trim();
+        
+        if (!url) {
+            alert('Please enter a URL');
+            return;
+        }
+
+        // Add protocol if missing
+        if (!url.startsWith('http://') && !url.startsWith('https:///')) {
+            // Try https first, if it fails, fall back to http
+            try {
+                const httpsUrl = 'https://' + url;
+                const response = await fetch(httpsUrl, { method: 'HEAD' });
+                if (response.ok) {
+                    url = httpsUrl;
+                } else {
+                    url = 'http://' + url;
+                }
+            } catch (error) {
+                // If https fails, try http
+                url = 'http://' + url;
+            }
+        }
+
+        // Remove any existing error messages
+        const existingErrors = document.querySelectorAll('.alert-error');
+        existingErrors.forEach(error => error.remove());
+
+        // Show loading window and start animation immediately
+        const loadingScreen = document.getElementById('loadingScreen');
+        const progressBar = document.getElementById('progressBar');
+        const statusText = document.getElementById('statusText');
+        const loadingDetails = document.getElementById('loadingDetails');
+        const transformBtn = document.querySelector('.transform-btn');
+        
+        loadingScreen.style.display = 'block';
+        transformBtn.disabled = true;
+
+        // Start progress animation immediately
+        let startTime = Date.now();
+        const totalDuration = 15000; // 15 seconds
+        let animationFrame;
+
+        // Progress update function
+        const updateProgress = () => {
+            const elapsed = Date.now() - startTime;
+            const progress = Math.min((elapsed / totalDuration) * 100, 100);
+            progressBar.style.width = `${progress}%`;
+
+            // Update messages based on time
+            const currentTime = elapsed / 1000; // Convert to seconds
+            const currentMessage = loadingMessages.reduce((acc, msg) => {
+                if (currentTime >= msg.time) return msg;
+                return acc;
+            }, loadingMessages[0]);
+
+            statusText.textContent = currentMessage.message;
+            loadingDetails.textContent = currentMessage.details;
+
+            if (progress < 100) {
+                animationFrame = requestAnimationFrame(updateProgress);
+            }
+        };
+
+        // Start progress animation
+        animationFrame = requestAnimationFrame(updateProgress);
+
+        try {
+            const response = await fetch('/fetch-url', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ url })
+            });
+
+            const data = await response.json();
+            
+            if (data.status === 'success' && data.html) {
+                // Complete animation
+                    const elapsed = Date.now() - startTime;
+                    if (elapsed < totalDuration) {
+                        await new Promise(resolve => setTimeout(resolve, totalDuration - elapsed));
+                    }
+                    
+                    statusText.textContent = "Transformation complete!";
+                loadingDetails.textContent = "Opening your rad GeoCities page...";
+                    
+                // Display HTML directly in current page
+                    setTimeout(() => {
+                    if (animationFrame) {
+                        cancelAnimationFrame(animationFrame);
+                }
+                    document.open();
+                    document.write(data.html);
+                    document.close();
+                }, 1000);
+            } else {
+                // Error response
+                if (animationFrame) {
+                    cancelAnimationFrame(animationFrame);
+                }
+                loadingScreen.style.display = 'none';
+                transformBtn.disabled = false;
+                showError(data.message || 'An error occurred');
+            }
+        } catch (error) {
+            // Cancel animation and show error
+            if (animationFrame) {
+                cancelAnimationFrame(animationFrame);
+            }
+            console.error('Error:', error);
+            loadingScreen.style.display = 'none';
+            transformBtn.disabled = false;
+            showError('NETWORK WIPEOUT! Could not connect to the server. Please try again! 🏄‍♂️');
+        }
+    }
+
+    function showError(message) {
+        const form = document.querySelector('.win95-form');
+        const errorDiv = document.createElement('div');
+        errorDiv.className = 'alert alert-error win95-form';
+        errorDiv.style.marginTop = '10px';
+        errorDiv.style.backgroundColor = '#fff';
+        errorDiv.style.color = '#000';
+        
+        // Create title bar for error message
+        const titleBar = document.createElement('div');
+        titleBar.className = 'win95-title-bar';
+        titleBar.style.backgroundColor = '#aa0000';
+        titleBar.innerHTML = `
+            <img src="/img/test/drudgesiren.gif" alt="Error" style="width: 16px; height: 16px;">
+            Page Access Error
+        `;
+        
+        // Create content area
+        const content = document.createElement('div');
+        content.className = 'win95-content';
+        content.style.padding = '15px';
+        
+        // Add appropriate icon and style based on error type
+        if (message.includes('JavaScript') || message.includes('browser rendering')) {
+            titleBar.innerHTML = `
+                <img src="/img/test/construction.gif" alt="Under Construction" style="width: 16px; height: 16px;">
+                JavaScript Page Detected
+            `;
+            content.innerHTML = `
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <img src="/img/test/construction.gif" alt="Under Construction" style="width: 50px;">
+                    <div>
+                        <strong>Page Not Compatible</strong><br>
+                        ${message}<br>
+                        <small style="color: #666;">Try pages with static content instead of web apps.</small>
+                    </div>
+                </div>
+            `;
+        } else if (message.includes('login') || message.includes('authentication')) {
+            titleBar.innerHTML = `
+                <img src="/img/test/key.gif" alt="Authentication" style="width: 16px; height: 16px;">
+                Authentication Required
+            `;
+            content.innerHTML = `
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <img src="/img/test/lock.gif" alt="Locked" style="width: 50px;">
+                    <div>
+                        <strong>Access Restricted</strong><br>
+                        ${message}<br>
+                        <small style="color: #666;">Try a publicly accessible page that doesn't require login.</small>
+                    </div>
+                </div>
+            `;
+        } else if (message.includes('error page') || message.includes('inaccessible')) {
+            content.innerHTML = `
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <img src="/img/test/drudgesiren.gif" alt="Error" style="width: 50px;">
+                    <div>
+                        <strong>Page Not Found</strong><br>
+                        ${message}<br>
+                        <small style="color: #666;">Double-check the URL and try again.</small>
+                    </div>
+                </div>
+            `;
+        } else {
+            content.innerHTML = `
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <img src="/img/test/drudgesiren.gif" alt="Error" style="width: 50px;">
+                    <div>
+                        <strong>Oops!</strong><br>
+                        ${message}
+                    </div>
+                </div>
+            `;
+        }
+        
+        // Assemble the error message
+        errorDiv.appendChild(titleBar);
+        errorDiv.appendChild(content);
+        
+        // Insert error after the form
+        const transformSection = document.querySelector('.transform-section');
+        transformSection.insertBefore(errorDiv, transformSection.children[1]);
+        
+        // Remove error after 15 seconds
+        setTimeout(() => {
+            errorDiv.remove();
+        }, 15000);
+    }
+
+    // FAQ Toggle Function - must be global for onclick handlers
+    function toggleFaq(element) {
+        const faqItem = element.parentElement;
+        const isActive = faqItem.classList.contains('active');
+        
+        // Close all FAQ items
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.classList.remove('active');
+        });
+        
+        // Open clicked item if it wasn't active
+        if (!isActive) {
+            faqItem.classList.add('active');
+        }
+    }
+
+    // Add enter key support for the input field
+    document.getElementById('urlInput').addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+            transformURL();
+        }
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.querySelector('.win95-form');
+        const loadingScreen = document.getElementById('loadingScreen');
+        const urlInput = document.querySelector('.url-input');
+
+        function showError(message) {
+            loadingScreen.style.display = 'none';
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'alert alert-error';
+            errorDiv.style.maxWidth = '800px';
+            errorDiv.style.margin = '20px auto';
+            errorDiv.style.padding = '15px';
+            errorDiv.style.borderRadius = '4px';
+            errorDiv.style.backgroundColor = '#fff';
+            errorDiv.style.border = '2px solid #ff0000';
+            
+            // Add construction GIF for JavaScript rendering message
+            if (message.includes('JavaScript-rendered')) {
+                errorDiv.innerHTML = `
+                    <img src="/img/test/construction.gif" alt="Under Construction" style="float: left; margin-right: 10px;">
+                    <div style="margin-left: 60px;">
+                        <strong>Under Construction!</strong><br>
+                        ${message}
+                    </div>
+                `;
+            } else {
+                errorDiv.innerHTML = `
+                    <img src="/img/test/drudgesiren.gif" alt="Error" style="float: left; margin-right: 10px;">
+                    <div style="margin-left: 60px;">
+                        <strong>Oops!</strong><br>
+                        ${message}
+                    </div>
+                `;
+            }
+            
+            // Insert error after the form
+            form.parentNode.insertBefore(errorDiv, form.nextSibling);
+            
+            // Remove error after 10 seconds
+            setTimeout(() => {
+                errorDiv.remove();
+            }, 10000);
+        }
+
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            // Remove any existing error messages
+            const existingErrors = document.querySelectorAll('.alert-error');
+            existingErrors.forEach(error => error.remove());
+            
+            const url = urlInput.value;
+            loadingScreen.style.display = 'block';
+            
+            try {
+                const response = await fetch('/fetch-url', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ url }),
+                });
+                
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    window.location.href = data.transform_url;
+                } else {
+                    showError(data.message);
+                }
+            } catch (error) {
+                showError('Network error. Please try again.');
+            } finally {
+                loadingScreen.style.display = 'none';
+            }
+        });
+
+        // Gallery removed - pages are no longer stored
+    });
+    </script>
+</body>
+
+<!-- Mirrored from geocities.live/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Mar 2026 17:32:54 GMT -->
+</html> 
